@@ -1,0 +1,29 @@
+body {
+    font-family: arial;
+    text-align: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#display {
+    font-size: 50px;
+    margin-bottom: 20px; /* Added 'bottom' to space it from buttons */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px; /* Fixed the 'psx' typo here */
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Optional: removes the default grey border */
+}
+
+button:hover {
+    background: yellow;
+    color: black; /* Makes text readable when background turns yellow */
+}
